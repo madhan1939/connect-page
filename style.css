@@ -1,0 +1,80 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    /*background-color: #f4a261;*/
+    overflow-x: hidden;
+}
+
+
+.leftpart{
+    padding-left: 5rem;
+}
+
+.logo{
+    width: 40%;
+    padding-left: 10%;
+}
+
+.rightpart{
+    /*border-left: 3px solid #e76f51;*/
+    padding-left: 10%;
+}
+
+.txt{
+    text-align: center;
+}
+
+.fa{
+    padding-right: 10%;
+}
+
+.fa-telegram{
+    /*padding-right: 9%;*/
+}
+
+.link{
+    text-decoration: none;
+    /*color: #2a9d8f;*/
+}
+.link:hover{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .txt{
+        padding-bottom: 10rem;
+    }
+
+    .leftpart{
+        padding-left: 3rem;
+        display: inline;
+    }
+
+    .link{
+        font-size: 1rem;
+    }
+
+    .fa-telegram{
+        padding-right: 7.4%;
+    }
+
+    .logo{
+        width: 70%;
+        height: 40%;
+    }    
+
+}
+
+
+@media(max-width: 768px){
+    .downpart{
+        padding-bottom: 5%;
+   
+    }
+}
